@@ -2,7 +2,7 @@
 /**
  *  Clase que dibuja una figura 
  * 
- * @author - 
+ * @author - Julen Baztarrica Puyal
  *  
  */
 public class PintorFiguras
@@ -20,8 +20,17 @@ public class PintorFiguras
      * (usa bucles for)
      */
     public  void dibujarFigura(int altura) {
-        
+       for (int fila=1; altura<=fila; altura++){
+          for (int espacio=1; espacio<=fila; espacio++){
+              System.out.println(" ");
+          }
+          for (int a=1; a <=(altura*2)-1; a++) {
+              System.out.println("*");
+          }
+            System.out.println();
+       }
     }
+  
 
     /**
      * Método privado de ayuda que escribe n espacios en la misma línea

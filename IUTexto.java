@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Modela el interfaz para interactuar con el usuario
- * @author - 
+ * @author - Julen Baztarrica Puyal
  */
 public class IUTexto
 {

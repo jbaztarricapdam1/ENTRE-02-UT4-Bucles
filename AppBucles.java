@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- *  @author - 
+ *  @author - Julen Baztarrica Puyal
  *  
  * Punto de entrada a la aplicación
  *  
